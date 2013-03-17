@@ -12,7 +12,7 @@ The reference system uses the JSON API (via jsonp) for source data, but makes li
 
 ## JSON API Documentation
 
-The JSNON API documentation can be found at: 
+The JSON API documentation can be found at: 
 http://api.lassoref.com/lasso9/LassoReferenceApi/docs
 
 ## Authors
