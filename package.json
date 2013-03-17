@@ -1,0 +1,9 @@
+{
+  "name": "ref",
+  "version": "0.0.1",
+  "description": "LassoSoft Mobile Reference",
+  "author": "Jonathan Guthrie",
+  "devDependencies": {
+    "grunt": "~0.4.0"
+  }
+}

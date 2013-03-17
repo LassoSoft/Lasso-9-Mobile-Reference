@@ -1,0 +1,86 @@
+/* Adjust the width of the left reveal menu.
+Copy all CSS from jquery.mobile.panel.css and delete the properties other than width, left, right and transform.
+Then delete the selectors/rules for display modes (reveal/push/overlay) and the position (left/right) that you don't use.
+If you don't use fixed toolbars on your page you can delete those selectors as well.
+Narrow the scope of the selectors to prevent other panels being affected by the overrides. */
+#categories #left-panel.ui-panel {
+	width: 15em;
+}
+#categories #left-panel.ui-panel-closed {
+	width: 0;
+}
+#categories .ui-panel-position-left.ui-panel-display-reveal {
+	left: 0;
+}
+#categories .ui-panel-content-wrap-position-left.ui-panel-content-wrap-open,
+.ui-panel-dismiss-position-left.ui-panel-dismiss-open {
+	left: 15em;
+	right: -15em;
+}
+#categories .ui-panel-animate.ui-panel-content-wrap-position-left.ui-panel-content-wrap-open.ui-panel-content-wrap-display-reveal {
+	left: 0;
+	right: 0;
+	-webkit-transform: translate3d(15em,0,0);
+	-moz-transform: translate3d(15em,0,0);
+	transform: translate3d(15em,0,0);
+}
+
+/* Combined listview collapsible menu. */
+/* Unset negative margin bottom on the listviews. */
+#left-panel .ui-panel-inner > .ui-listview { margin-bottom: 0; }
+/* Unset top and bottom margin on collapsible set. */
+#left-panel .ui-collapsible-set { margin: 0; }
+/* The first collapsible contains the collapsible set. Make it fit exactly in the collapsible content. */
+#left-panel .ui-panel-inner > .ui-collapsible > .ui-collapsible-content { padding-top: 0; padding-bottom: 0;  border-bottom: none; }
+/* Remove border top if a collapsible comes after a listview. */
+#left-panel .ui-panel-inner  > .ui-collapsible > .ui-collapsible-heading .ui-btn,
+#left-panel .ui-collapsible.ui-first-child .ui-collapsible-heading .ui-btn { border-top: none; }
+/* Give the first collapsible heading the same padding, i.e. same height, as the list items. */
+#left-panel .ui-collapsible-heading .ui-btn-inner { padding: .7em 40px .7em 15px; }
+/* Give the other collapsible headings the same padding and font-size as the list divider. */
+#left-panel .ui-collapsible-set .ui-collapsible-heading .ui-btn-inner { padding: .5em 40px .5em 15px; font-size: 14px; }
+
+/* Styling of the close button in both panels. */
+#categories .ui-panel-inner > .ui-listview .ui-first-child {
+	background: #eee;
+}
+
+/* Reveal menu shadow on top of the list items */
+#categories .ui-panel-display-reveal {
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+}
+#categories .ui-panel-content-wrap-position-left {
+	-webkit-box-shadow: -5px 0px 5px rgba(0,0,0,.15);
+	-moz-box-shadow: -5px 0px 5px rgba(0,0,0,.15);
+	box-shadow: -5px 0px 5px rgba(0,0,0,.15);
+}
+.datatype { font-style:italic }
+/* loading icon */
+.icon-loading {
+	width: 50px;
+	height: 50px;
+	text-align: center;
+	background: url(/css/images/ajax-loader.gif);
+	/* background-size: 46px 46px; */
+}
+
+
+/* Custom LassoSoft Overrides */
+/* Some Jiggery pokery first */
+.rhino {
+	content:"";
+	float:left;
+	width:40px;
+	height:20px;
+	margin:0 -5px 0 0;
+	background:url(images/sprite.png);
+	background-repeat: no-repeat;
+	background-position:0 0;
+	}
+.syntax div,
+.example code{display:block;padding:1px 8px;margin:0 0 9px;font-size:12.025px;line-height:1.6;word-break:break-all;word-wrap:break-word;white-space:pre;white-space:pre-wrap;background:#f4fbfd url(images/highlight_bg.png) left top repeat; ;border:1px solid #e6f6fb;border:1px solid rgba(0,204,255,0.625);}
+
+#l_search.search_submit.ui-btn-hidden {border-radius: 0 !important;-webkit-border-radius: 0 !important;-webkit-border-bottom-left-radius: 0 !important;}
+
