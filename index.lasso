@@ -6,39 +6,39 @@
 	<title>Lasso 9 Reference</title>
 [/*
 
-<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/touch/apple-touch-icon-144x144-precomposed.png">
-<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/touch/apple-touch-icon-114x114-precomposed.png">
-<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/touch/apple-touch-icon-72x72-precomposed.png">
-<link rel="apple-touch-icon-precomposed" href="/touch/apple-touch-icon-57x57-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="touch/apple-touch-icon-144x144-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="touch/apple-touch-icon-114x114-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="touch/apple-touch-icon-72x72-precomposed.png">
+<link rel="apple-touch-icon-precomposed" href="touch/apple-touch-icon-57x57-precomposed.png">
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
 */]
 	<meta name="apple-mobile-web-app-capable" content="yes" />
-	<link rel="stylesheet"  href="/css/jquery.mobile-1.3.0.css">
-	<link rel="stylesheet"  href="/css/ref.min.css">
+	<link rel="stylesheet"  href="css/jquery.mobile-1.3.0.css">
+	<link rel="stylesheet"  href="css/ref.min.css">
 [
 /*
-	<link rel="stylesheet"  href="/css/ref.css">
-	<link rel="stylesheet"  href="/css/ref.all.min.css">
+	<link rel="stylesheet"  href="css/ref.css">
+	<link rel="stylesheet"  href="css/ref.all.min.css">
 	
 	
-	<script src="/js/jquery-1.9.1.min.js"></script>
-	<script src="/js/jquery.mobile-1.3.0.min.js"></script>
-	<script src="/js/ref.js"></script>
+	<script src="js/jquery-1.9.1.min.js"></script>
+	<script src="js/jquery.mobile-1.3.0.min.js"></script>
+	<script src="js/ref.js"></script>
 */
 ]
-	<script src="/build/ref.min.js"></script>
+	<script src="build/ref.min.js"></script>
 	<!-- iPhone SPLASHSCREEN-->
-<link href="/startup/startup.png" media="(device-width: 320px)" rel="apple-touch-startup-image">
+<link href="startup/startup.png" media="(device-width: 320px)" rel="apple-touch-startup-image">
 <!-- iPhone (Retina) SPLASHSCREEN-->
-<link href="/startup/startup-retina.png" media="(device-width: 320px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">
+<link href="startup/startup-retina.png" media="(device-width: 320px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">
 <!-- iPad (portrait) SPLASHSCREEN-->
-<link href="/startup/startup-tablet-portrait.png" media="(device-width: 768px) and (orientation: portrait)" rel="apple-touch-startup-image">
+<link href="startup/startup-tablet-portrait.png" media="(device-width: 768px) and (orientation: portrait)" rel="apple-touch-startup-image">
 <!-- iPad (landscape) SPLASHSCREEN-->
-<link href="/startup/startup-tablet-landscape.png" media="(device-width: 768px) and (orientation: landscape)" rel="apple-touch-startup-image">
+<link href="startup/startup-tablet-landscape.png" media="(device-width: 768px) and (orientation: landscape)" rel="apple-touch-startup-image">
 <!-- iPad (Retina, portrait) SPLASHSCREEN-->
-<link href="/startup/startup-tablet-portrait-retina.png" media="(device-width: 1536px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">
+<link href="startup/startup-tablet-portrait-retina.png" media="(device-width: 1536px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">
 <!-- iPad (Retina, landscape) SPLASHSCREEN-->
-<link href="/startup/startup-tablet-landscape-retina.png" media="(device-width: 2056px)  and (orientation: landscape) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">
+<link href="startup/startup-tablet-landscape-retina.png" media="(device-width: 2056px)  and (orientation: landscape) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">
 
 <!-- Tile icon for Win8 (144x144 + tile color) -->
 <meta name="msapplication-TileImage" content="_static/img/touch/apple-touch-icon-144x144-precomposed.png">
